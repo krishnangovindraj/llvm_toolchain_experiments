@@ -1,0 +1,100 @@
+#
+# Copyright (C) 2022 Vaticle
+#
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+#
+
+# Mac files #
+.DS_Store
+
+# Bazel files #
+bazel-*
+.bazel-remote-cache.rc
+.bazel-cache-credential.json
+
+# IDE files #
+.ijwb/
+.idea/
+*.iml
+*.geany
+
+# VS Code files #
+.vscode/
+.settings/
+.project
+.classpath
+
+# Compiled files #
+target/
+dist/
+out/
+*.class
+
+# Mobile Tools for Java (J2ME) files #
+.mtj.tmp/
+
+# Package Files #
+*.jarg
+*.war
+*.ear
+
+# Debug files #
+dep.tree
+
+# Databases #
+db/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml #
+hs_err_pid*
+
+# Log files #
+logs/
+*.log
+
+# Analytics files #
+typedb-test/db/
+typedb-test/output/
+typedb-test/*.txt
+
+# Sample Date Files #
+typedb-test/test-biomed/data/*
+
+# Benchmark Files #
+typedb-test/test-integration/benchmarks/
+
+# VIM swap files #
+*.swp
+*.swo
+
+
+# Downloaded node modules #
+node_modules
+
+# Compiled typescript #
+dist
+
+# Python cache #
+__pycache__
+
+# Other #
+**.pyc
+venv
+
+# Cargo files
+Cargo.lock
+Cargo.toml
